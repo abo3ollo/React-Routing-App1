@@ -1,0 +1,51 @@
+:root {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+
+.navbar {
+  background-color: var(--second-color);
+}
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover,
+.nav-link:focus,
+.nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: white;
+  cursor: pointer;
+}
+.navbar-nav .nav-link.active{
+  background-color: #1abc9c;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.footer{
+  background-color: var(--second-color);
+  
+}
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;        
+  height: 40px;       
+  display: inline-flex;  
+  align-items: center;   
+  justify-content: center;
+  cursor: pointer;      
+  
+}
+.footer-low{
+  background-color: #1a252f;
+  
+}
+.footer-low p{
+  color:#f0f8ff ;
+}
+

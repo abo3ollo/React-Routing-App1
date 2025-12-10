@@ -1,0 +1,17 @@
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-floating > label {
+  color: #1abc9c !important;
+}
+
+
+
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+    
+    transform: scale(0.85) translateY(-2rem) translateX(0.15rem) !important;
+}
